@@ -1,0 +1,259 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    background: #232323;
+
+}
+
+#header {
+    position: fixed;
+    width: 1900px;
+    height: 154px;
+    left: 0px;
+    top: 0px;
+    background: black;
+    padding-left: 1180px;
+    margin-bottom: 154px;
+    
+
+}
+
+#logo {
+
+    position: absolute;
+    width: 300px;
+    height: 118px;
+    left: 108px;
+    top: 21px;
+
+}
+
+#links {
+    margin-right: 48px;
+    color: white;
+    font-size: 24px;
+    line-height: 150px;
+    cursor: pointer;
+text-decoration: none;
+}
+
+section {
+    display: inline-block;
+    width: 900px;
+    height: 363px;
+
+}
+
+#ola {
+    margin: 264px 1046px;
+    margin-bottom: 0px;
+    margin-left: 110px;
+    font-weight: 700;
+    font-size: 67.2361px;
+    line-height: 81px;
+    color: white;
+    padding: 0px;
+    width: 289px;
+}
+
+#gustavo {
+    margin-left: 105px;
+    font-weight: 700;
+    font-size: 92.9684px;
+    line-height: 100px;
+    color: #00A3FF;
+
+}
+
+#desenvolvedor {
+    color: white;
+    font-size: 48px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+
+#button{
+    font-size: 20pt;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    background-color: #1E90FF;
+    color: #fff;
+    margin-left: 105px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#button:hover{
+    background-color: rgb(23, 125, 255);
+    
+}
+
+
+#img-dev {
+    width: 600px;
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 225px;
+   
+}
+
+#sobre-eu {
+    color: white;
+    margin-top: 200px;
+    margin-left: 780px;
+    margin-bottom: 20px;
+    font-size: 53px;
+
+}
+
+#sobre-eu-bio {
+    color: white;
+    width: 1400px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+#habilidades {
+    font-size: 53px;
+    color: white;
+    margin-top: 180px;
+    margin-bottom: 26px;
+    margin-left: 780px;
+}
+
+#nome-habilidades {
+    width: 335px;
+    color: white;
+    font-size: 30px;
+    margin-left: 235px;
+}
+
+#image-html {
+    width: 150px;
+    margin-left: 195px;
+}
+
+#image-css {
+    width: 165px;
+    margin-left: 150px;
+}
+
+#image-js {
+    width: 150px;
+    margin-left: 185px;
+}
+
+#image-git {
+    width: 150px;
+    margin-left: 190px;
+}
+
+#image-github {
+
+    width: 150px;
+    margin-left: 160px;
+}
+
+#nome-projetos {
+    font-size: 75px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 26px;
+    margin-left: 780px;
+}
+
+#image-yoga {
+    margin-left: 640px;
+    width: 550px;
+}
+
+#nome-yoga {
+    font-size: 53px;
+    color: #00A3FF;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 710px
+}
+
+#sobre-yoga {
+    color: white;
+    width: 1400px;
+    text-align: center;
+    margin-left: 230px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.button-detalhes {
+    font-size: 20pt;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    background-color: #1E90FF;
+    color: #fff;
+    margin-left: 820px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button-detalhes:hover{
+    background-color: rgb(23, 125, 255);
+    
+}
+
+
+#image-portfolio {
+    margin-left: 350px;
+    margin-top: 140px;
+    width: 1150px;
+}
+
+#nome-portifolio {
+    font-size: 53px;
+    color: #00A3FF;
+    margin-top: 30px;
+    margin-bottom: px;
+    margin-left: 780px
+}
+
+#sobre-portifolio {
+    color: white;
+    width: 1400px;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#footer {
+    background-color: #000000;
+    height: 154px;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+
+#email-footer {
+    color: white;
+    font-size: 26px;
+    margin-left: 115px;
+}
+
+#icon-linkedin {
+    width: 60px;
+    margin-left: 115px;
+}
+
+#icon-github {
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
