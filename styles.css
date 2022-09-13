@@ -235,7 +235,7 @@
 @media screen and (max-width: 425px) {
     #nome-habilidades {
         margin-left: 150px;
-    margin-right: 80px;
+    margin-right: 60px;
     
 
     }
@@ -267,7 +267,8 @@
 
 @media screen and (max-width: 425px) {
     #conjunto-nome {
-        width: 390vw;
+        width: 400vw;
+    
 
     }
 }
