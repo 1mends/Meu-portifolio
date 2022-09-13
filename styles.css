@@ -10,16 +10,29 @@
 
 }
 
-#header {
+.header {
 
     position: fixed;
-    width: 1900px;
+    width: 100vw;
     height: 154px;
-    left: 0px;
-    top: 0px;
     background: black;
-    padding-left: 1180px;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1660px) {
+    .header {
+        width: 100%;
+    }
+}
+
+
+
+
 
 #logo {
 
@@ -31,33 +44,84 @@
 
 }
 
-#links {
-    margin-right: 48px;
-    color: white;
+.links {
+
+    color: rgb(255, 255, 255);
     font-size: 24px;
     line-height: 150px;
     cursor: pointer;
     text-decoration: none;
+    margin-left: 15px;
 }
 
-.container {
-    height: 500px;
-    width: 1900px;
+@media screen and (max-width: 425px) {
+    .links {
+        font-size: 35px;
+        margin-left: 20px;
+
+    }
 }
+
+.link2 {
+    margin-left: 1000px;
+}
+
+@media screen and (max-width: 425px) {
+    .link2 {
+
+        margin-left: 750px;
+
+    }
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 250vw;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 380vw;
+
+    }
+}
+
+
 
 .Home {
     display: inline-block;
-    width: 60%;
+    width: 45%;
 }
+
+@media screen and (max-width: 425px) {
+    .Home {
+        width: 200vw;
+
+    }
+}
+
 
 #img-dev {
     display: inline-block;
     width: 20%;
     margin-top: 250px;
-
-
+    margin-left: 220px;
 }
 
+@media screen and (max-width: 425px) {
+    #img-dev {
+        margin-left: 110px;
+
+    }
+}
 
 #ola {
     margin: 0px 1046px;
@@ -79,6 +143,9 @@
     color: #00A3FF;
 
 }
+
+
+
 
 #desenvolvedor {
     color: white;
@@ -104,19 +171,42 @@
     background-color: rgb(23, 125, 255);
 }
 
+@media screen and (max-width: 768px) {
+    #sobre-eu-sessao {
+        width: 240vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    #sobre-eu-sessao {
+        width: 380vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
 #sobre-eu {
     color: white;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 20px;
     font-size: 53px;
     text-align: center;
-
 }
 
 #sobre-eu-bio {
     color: white;
     text-align: center;
     font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #habilidades {
@@ -128,16 +218,92 @@
 
 }
 
+#conjunto-nome {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #nome-habilidades {
     width: 335px;
     color: white;
     font-size: 30px;
-    margin-left: 235px;
+    margin-left: 230px;
+    text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+    #nome-habilidades {
+        margin-left: 150px;
+    margin-right: 80px;
+    
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #habilidades {
+        width: 240vw;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #habilidades {
+        width: 380vw;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #conjunto-nome {
+        width: 250vw;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #conjunto-nome {
+        width: 390vw;
+
+    }
+}
+
 
 #image-html {
     width: 150px;
     margin-left: 195px;
+}
+
+@media screen and (max-width: 425px) {
+    #image-html {
+        margin-left: 100px;
+
+    }
+}
+
+.image-habilidades {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .image-habilidades {
+width: 250vw;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .image-habilidades {
+        width: 1656px;
+
+    }
 }
 
 #image-css {
@@ -169,12 +335,34 @@
     text-align: center;
 }
 
+
+
+
 #image-yoga {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    #div-projetos {
+        width: 250vw;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    #div-projetos {
+        width: 380vw;
+    }
+
+}
+
+
+
 
 #nome-yoga {
     font-size: 53px;
@@ -186,12 +374,23 @@
 
 #sobre-yoga {
     color: white;
-    width: 1400px;
+
     text-align: center;
-    margin-left: 230px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 25px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 425px) {
+    #sobre-yoga {
+        width: 350vw;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+}
+
 
 .button-detalhes {
     font-size: 15pt;
@@ -208,7 +407,7 @@
     display: block;
     width: 200px;
     text-align: center;
-   
+
 }
 
 .button-detalhes:hover {
@@ -223,7 +422,7 @@
     margin-right: auto;
     display: block;
     margin-top: 45px;
-    
+
 }
 
 #nome-portifolio {
@@ -236,19 +435,41 @@
 
 #sobre-portifolio {
     color: white;
-    width: 1400px;
+
     text-align: center;
     margin-left: 250px;
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-#footer {
-    background-color: #000000;
-    height: 154px;
-    padding-top: 25px;
-    margin-top: 50px;
+@media screen and (max-width: 425px) {
+    #sobre-portifolio {
+        width: 350vw;
+        margin-left: 90px;
+        text-align: center;
+    }
 }
+
+#footer {
+    width: 100vw;
+    height: 154px;
+    background: black;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        width: 250vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #footer {
+        width: 390vw;
+    }
+}
+
+
 
 #email-footer {
     color: white;
@@ -266,5 +487,3 @@
     margin-left: 10px;
     margin-top: 15px;
 }
-
-@media screen and (max-width: 768px) {}
